@@ -1,0 +1,115 @@
+{
+    "help": [
+        {
+            "id": 1,
+            "image": "/6.png",
+            "name": "Just Shut Up",
+            "author": "Brian Tracy",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        },
+        {
+            "id": 2,
+            "image": "/9.png",
+            "name": "Not Nice",
+            "author": "Dr. Aziz Gazipura",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        },
+        {
+            "id": 3,
+            "image": "/3.png",
+            "name": "Relentless",
+            "author": "Brian Tracy",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        },
+        {
+            "id": 4,
+            "image": "/10.png",
+            "name": "30 Days",
+            "author": "Brian Tracy",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        },
+        {
+            "id": 5,
+            "image": "/5.png",
+            "name": "Rewire",
+            "author": "Brian Tracy",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        },
+        {
+            "id": 6,
+            "image": "/24.png",
+            "name": "Break through your BS",
+            "author": "Derek Doekper",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Self-Help"
+        }
+    ],
+    "leadership": [
+        {
+            "id": 7,
+            "image": "/15.png",
+            "name": "360 Degree Leadership",
+            "author": "John C. Maxwell",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Leadership"
+        },
+        {
+            "id": 7,
+            "image": "/28.png",
+            "name": "People Follow You",
+            "author": "Jeb Blunt",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Leadership"
+        },
+        {
+            "id": 7,
+            "image": "/23.png",
+            "name": "Be A People's person",
+            "author": "John C. Maxwell",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Leadership"
+        },
+        {
+            "id": 7,
+            "image": "/27.png",
+            "name": "How to win friends and influence people",
+            "author": "Dale Carnegie",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Leadership"
+        },
+        {
+            "id": 7,
+            "image": "/26.png",
+            "name": "How to influence people",
+            "author": "John C. Maxwell",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Leadership"
+        }
+        
+    ],
+    "success": [
+        {
+            "id": 11,
+            "image": "/1.png",
+            "name": "How successful people think",
+            "author": "John C. Maxwell",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Success"
+        }
+    ],
+    "relationship": [
+        {
+            "id": 16,
+            "image": "/8.png",
+            "name": "The Five Love Languages",
+            "author": "Gary Chapman",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quaerat accusamus voluptatibus illo quod sint. Fuga tempora porro expedita provident nisi sit culpa suscipit, non atque doloribus, quae eius blanditiis dolore. Sunt quia laudantium amet animi. Provident exercitationem libero fugiat impedit beatae? Pariatur eos ratione facere, sed dolores expedita.",
+            "category": "Relationship"
+        }
+    ]
+}

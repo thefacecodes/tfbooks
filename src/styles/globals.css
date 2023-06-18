@@ -1,27 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply text-white font-Rale
+}
+
+nav {
+  @apply bg-blackBG flex justify-between items-center py-4
+}
+
+.side {
+  @apply px-40
+}
+
+nav ul {
+  @apply flex gap-3 items-center
+}
+
+.books h2{
+  @apply text-lightBlue text-3xl font-bold mb-4
+}
+
+.books .contain {
+  scrollbar-width: none;
+  @apply overflow-x-scroll
+}
+
+.books .contain img {
+  @apply w-[220px] h-[300px]
+}
+
+.inner-scroll {
+  @apply inline-flex gap-2
+}
+
+.singlebook {
+  @apply w-[200px]
+}
+
+.singlebook img {
+  @apply h-[300px]
+}
+
+.banner {
+  @apply h-[250px] w-full relative bg-[url("/ready.jpg")] bg-bottom bg-cover bg-no-repeat
+}
+
+.banner h1 {
+  @apply text-[48px] font-bold
+}
+
+.overlay {
+  @apply absolute top-0 left-0 right-0 bottom-0 bg-transparentBlack flex justify-center items-center backdrop-blur-sm flex-col gap-2
+}
+
+.library {
+  @apply text-lightBlue flex gap-4 py-12
+}
+
+.library .sidebar {
+  @apply shadow-md p-2
+}
+
+.library .main {
+  @apply grid grid-cols-4 gap-2
 }
