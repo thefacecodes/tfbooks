@@ -26,14 +26,15 @@ function index({ book }) {
         <div className="flex gap-4">
           <img src={urlFor(book[0].mainImage).url()} className="w-1/2" />
           <div>
-            <h2 className="text-[36px] font-bold">{book?.name}</h2>
+            <h2 className="text-[36px] font-bold">{book[0].title}</h2>
             <hr />
             <p className="text-base my-4">
               {book[0].description[0].children[0].text}
             </p>
             <hr />
             <h3 className="my-3">
-              <b>Author:</b> {book?.author}
+              <b>Author:</b>
+              {/* {book?.author} */}
             </h3>
             <h3 className="my-3">
               <b>File Size:</b> {book[0].size}
@@ -43,7 +44,8 @@ function index({ book }) {
             </h3>
 
             <h3 className="my-3">
-              <b>Category:</b> {book?.category}
+              <b>Category:</b>
+              {/* {book?.category} */}
             </h3>
             <hr className="my-4" />
             <a
