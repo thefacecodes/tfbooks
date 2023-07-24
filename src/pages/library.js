@@ -16,7 +16,7 @@ function library({ books }) {
           <input
             type="search"
             name="search"
-            onChange={() => setSearch(e.target.value)}
+            onChange={(e) => setSearch(e.target.value)}
             value={search}
             className="w-full border-2 outline-none border-lightBlue h-[35px] px-2"
             placeholder="Search book..."
@@ -83,7 +83,7 @@ function library({ books }) {
         <div className="w-4/5">
           <div className="main ">
             {books.map((book) => (
-              <SingleBook book={book} id={book._id} />
+              <SingleBook book={book} key={book._id} />
             ))}
           </div>
           <div className="flex gap-3 justify-center items-center mt-6 w-full">

@@ -9,7 +9,7 @@ function Relationships({ relationship }) {
       <div className="contain">
         <div className="inner-scroll">
           {relationship.map((book) => (
-            <SingleBook book={book} id={book.id} />
+            <SingleBook book={book} key={book.id} />
           ))}
         </div>
       </div>

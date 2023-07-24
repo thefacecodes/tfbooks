@@ -8,7 +8,7 @@ function Success({ success }) {
       <div className="contain">
         <div className="inner-scroll">
           {success.map((book) => (
-            <SingleBook book={book} id={book.id} />
+            <SingleBook book={book} key={book.id} />
           ))}
         </div>
       </div>

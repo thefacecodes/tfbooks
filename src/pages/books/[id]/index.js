@@ -14,7 +14,7 @@ function index({ book }) {
 
   return (
     <>
-      <Banner page={book[0].title} sub={book?.category} />
+      <Banner page={book[0].title} sub="Self-Help" />
       {/* <h2>ID is {id}</h2> */}
       <section className="side py-8 text-lightBlue ">
         <button
@@ -66,7 +66,7 @@ function index({ book }) {
 }
 
 export default index;
-
+d;
 export const getServerSideProps = async (context) => {
   console.log(context);
   const book = await client.fetch(`*[_id == $id]`, {

@@ -9,7 +9,7 @@ function Leadership({ lead }) {
       <div className="contain">
         <div className="inner-scroll">
           {lead.map((book) => (
-            <SingleBook book={book} id={book.id} />
+            <SingleBook book={book} key={book.id} />
           ))}
         </div>
       </div>
