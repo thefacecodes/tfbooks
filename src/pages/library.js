@@ -1,3 +1,5 @@
+"use client";
+
 import Banner from "@/components/Banner";
 import React, { useState } from "react";
 import books from "@/books.json";
@@ -5,7 +7,7 @@ import SingleBook from "@/components/SingleBook";
 import { AiOutlineBackward, AiOutlineForward } from "react-icons/ai";
 import client from "../../sanity";
 
-function library({ books }) {
+async function library({ books }) {
   const [search, setSearch] = useState("");
 
   return (

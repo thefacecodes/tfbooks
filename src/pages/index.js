@@ -1,16 +1,16 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Help from "@/components/Help";
-import Leadership from "@/components/Leadership";
-import Success from "@/components/Success";
-import Relationships from "@/components/Relationships";
-import books from "@/books.json";
+// import Help from "@/components/Help";
+// import Leadership from "@/components/Leadership";
+// import Success from "@/components/Success";
+// import Relationships from "@/components/Relationships";
+
 import client from "../../sanity";
 // import { createClient } from "next-sanity";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ books }) {
+export default async function Home({ books }) {
   console.log("Books", books);
   return (
     <>

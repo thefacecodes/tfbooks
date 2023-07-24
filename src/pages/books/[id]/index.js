@@ -66,7 +66,7 @@ function index({ book }) {
 }
 
 export default index;
-d;
+
 export const getServerSideProps = async (context) => {
   console.log(context);
   const book = await client.fetch(`*[_id == $id]`, {
