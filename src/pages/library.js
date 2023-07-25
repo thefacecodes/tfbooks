@@ -7,7 +7,7 @@ import SingleBook from "@/components/SingleBook";
 import { AiOutlineBackward, AiOutlineForward } from "react-icons/ai";
 import client from "../../sanity";
 
-async function library({ books }) {
+function library({ books }) {
   const [search, setSearch] = useState("");
 
   return (

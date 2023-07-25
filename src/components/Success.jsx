@@ -7,9 +7,9 @@ function Success({ success }) {
       <h2>Success</h2>
       <div className="contain">
         <div className="inner-scroll">
-          {success.map((book) => (
+          {/* {success.map((book) => (
             <SingleBook book={book} key={book.id} />
-          ))}
+          ))} */}
         </div>
       </div>
       {/* <div className="contain">

@@ -24,7 +24,7 @@ function index({ book }) {
           <BiArrowBack />
         </button>
         <div className="flex gap-4">
-          <img src={urlFor(book[0].mainImage).url()} className="w-1/2" />
+          <img src={urlFor(book[0].mainImage).url()} className="w-1/2" alt="" />
           <div>
             <h2 className="text-[36px] font-bold">{book[0].title}</h2>
             <hr />

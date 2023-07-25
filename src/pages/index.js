@@ -10,7 +10,7 @@ import client from "../../sanity";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default async function Home({ books }) {
+export default function Home({ books }) {
   console.log("Books", books);
   return (
     <>

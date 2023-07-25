@@ -8,9 +8,9 @@ function Relationships({ relationship }) {
       <h2>Relationships</h2>
       <div className="contain">
         <div className="inner-scroll">
-          {relationship.map((book) => (
+          {/* {relationship.map((book) => (
             <SingleBook book={book} key={book.id} />
-          ))}
+          ))} */}
         </div>
       </div>
       {/* <div className="contain">
