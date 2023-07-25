@@ -13,7 +13,7 @@ function index({ book }) {
   const router = useRouter();
   // const id = router.query.id;
   console.log(book);
-
+  const src = urlFor(book[0].mainImage).url();
   return (
     <>
       <Banner page={book[0].title} sub="Self-Help" />
@@ -29,7 +29,9 @@ function index({ book }) {
           <Image
             height={200}
             width={350}
-            src={urlFor(book[0].mainImage).url()}
+            loader={() => src}
+            src={src}
+            unoptimized={true}
             className="w-1/2"
             alt=""
           />

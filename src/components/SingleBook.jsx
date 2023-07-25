@@ -5,10 +5,13 @@ import { urlFor } from "../../sanity";
 
 function SingleBook({ book }) {
   console.log("Book image url", urlFor(book.mainImage).url());
+  const src = urlFor(book.mainImage).url();
   return (
     <div className="singlebook">
       <Image
-        src={urlFor(book.mainImage).url()}
+        loader={() => src}
+        src={src}
+        unoptimized={true}
         alt=""
         height={200}
         width={200}
