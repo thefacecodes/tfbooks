@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Inter } from "next/font/google";
 // import Help from "@/components/Help";
@@ -11,9 +13,7 @@ import Hero from "@/components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ books }) {
-  console.log("Single book image url", urlFor(books[0].mainImage).url());
-  console.log("Books", books);
+export default function Home() {
   return (
     <>
       <Hero />
@@ -25,12 +25,12 @@ export default function Home({ books }) {
   );
 }
 
-export async function getStaticProps() {
-  const books = await client.fetch(`*[_type == "post"]`);
+// export async function getStaticProps() {
+//   const books = await client.fetch(`*[_type == "post"]`);
 
-  return {
-    props: {
-      books,
-    },
-  };
-}
+//   return {
+//     props: {
+//       books,
+//     },
+//   };
+// }

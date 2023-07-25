@@ -1,8 +1,7 @@
-// "use client";
+"use client";
 
 import React from "react";
 import { useRouter } from "next/router";
-import books from "@/books.json";
 import Banner from "@/components/Banner";
 import Image from "next/image";
 import { BsDownload, BsStar } from "react-icons/bs";
@@ -11,13 +10,10 @@ import client, { urlFor } from "../../../../sanity";
 
 function index({ book }) {
   const router = useRouter();
-  // const id = router.query.id;
-  console.log(book);
   const src = urlFor(book[0].mainImage).url();
   return (
     <>
       <Banner page={book[0].title} sub="Self-Help" />
-      {/* <h2>ID is {id}</h2> */}
       <section className="side py-8 text-lightBlue ">
         <button
           onClick={() => router.back()}
@@ -82,8 +78,6 @@ export const getServerSideProps = async (context) => {
   const book = await client.fetch(`*[_id == $id]`, {
     id: context.params.id,
   });
-  console.log(book);
-  // const book = await res.json();
 
   return {
     props: {

@@ -2,7 +2,6 @@
 
 import Banner from "@/components/Banner";
 import React, { useState } from "react";
-import books from "@/books.json";
 import SingleBook from "@/components/SingleBook";
 import { AiOutlineBackward, AiOutlineForward } from "react-icons/ai";
 import client from "../../sanity";
@@ -83,7 +82,7 @@ function library({ books }) {
           <br />
         </div>
         <div className="w-4/5">
-          <div className="main ">
+          <div className="main">
             {books.map((book) => (
               <SingleBook book={book} key={book._id} />
             ))}
