@@ -12,8 +12,8 @@ import Hero from "@/components/Hero";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ books }) {
-  console.log("Books", books);
   console.log("Single book image url", urlFor(books[0].mainImage).url());
+  console.log("Books", books);
   return (
     <>
       <Hero />
