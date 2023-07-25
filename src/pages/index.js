@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 // import Success from "@/components/Success";
 // import Relationships from "@/components/Relationships";
 
-import client from "../../sanity";
+import client, { urlFor } from "../../sanity";
 import Hero from "@/components/Hero";
 // import { createClient } from "next-sanity";
 
@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ books }) {
   console.log("Books", books);
+  console.log("Single book image url", urlFor(books[0].mainImage).url());
   return (
     <>
       <Hero />
