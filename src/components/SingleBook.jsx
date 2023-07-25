@@ -6,12 +6,12 @@ import { urlFor } from "../../sanity";
 function SingleBook({ book }) {
   return (
     <div className="singlebook">
-      <Image
+      {/* <Image
         src={urlFor(book.mainImage).url()}
         alt=""
         height={200}
         width={200}
-      />
+      /> */}
       <Link href="/books/[id]" as={`/books/${book._id}`}>
         <h3 className="text-lightBlue mt-3 font-bold text-center">
           {book.title}
