@@ -13,7 +13,7 @@ nav {
 }
 
 .side {
-  @apply px-40
+  @apply px-4 md:px-8 lg:px-12 xl:px-40
 }
 
 nav ul {
@@ -38,19 +38,19 @@ nav ul {
 }
 
 .singlebook {
-  @apply w-[200px]
+  @apply w-[180px] md:w-[200px]
 }
 
 .singlebook img {
-  @apply h-[300px]
+  @apply h-auto md:h-[300px]
 }
 
 .banner {
-  @apply h-[250px] w-full relative bg-[url("/ready.jpg")] bg-bottom bg-cover bg-no-repeat
+  @apply h-[200px] md:h-[250px] w-full relative bg-[url("/ready.jpg")] bg-bottom bg-cover bg-no-repeat
 }
 
 .banner h1 {
-  @apply text-[48px] font-bold
+  @apply text-3xl md:text-[48px] font-bold
 }
 
 .overlay {
@@ -58,7 +58,7 @@ nav ul {
 }
 
 .library {
-  @apply text-lightBlue flex gap-4 py-12
+  @apply text-lightBlue flex flex-col md:flex-row gap-4 py-12
 }
 
 .library .sidebar {
@@ -66,5 +66,5 @@ nav ul {
 }
 
 .library .main {
-  @apply grid grid-cols-4 gap-2
+  @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-2
 }

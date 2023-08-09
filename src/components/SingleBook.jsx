@@ -8,14 +8,17 @@ function SingleBook({ book }) {
   const src = urlFor(book.mainImage).url();
   return (
     <div className="singlebook">
-      <Image
-        loader={() => src}
-        src={src}
-        unoptimized={true}
-        alt=""
-        height={200}
-        width={200}
-      />
+      <Link href="/books/[id]" as={`/books/${book._id}`}>
+        <Image
+          loader={() => src}
+          src={src}
+          unoptimized={true}
+          alt=""
+          height={200}
+          width={200}
+          className="w-[180px] aspect-auto md:w-[200px]"
+        />
+      </Link>
       <Link href="/books/[id]" as={`/books/${book._id}`}>
         <h3 className="text-lightBlue mt-3 font-bold text-center">
           {book.title}

@@ -9,20 +9,8 @@ function Nav() {
           <span className="text-lightBlue font-bold">TFB</span>ooks
         </h1>
       </Link>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <li>
-          <Link href="/library">Library</Link>
-        </li>
-      </ul>
+
+      <Link href="/library">Library</Link>
     </nav>
   );
 }

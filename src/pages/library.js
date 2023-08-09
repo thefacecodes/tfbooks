@@ -13,7 +13,7 @@ function library({ books }) {
     <div>
       <Banner page="Library" sub="Library" />
       <div className="library side">
-        <div className="sidebar w-1/5">
+        <div className="sidebar w-full md:w-1/3 lg:w-1/4 xl:w-1/5">
           <input
             type="search"
             name="search"
@@ -81,7 +81,7 @@ function library({ books }) {
           Romance
           <br />
         </div>
-        <div className="w-4/5">
+        <div className="w-full md:w-2/3 lg:w-3/4 xl:w-4/5">
           <div className="main">
             {books.map((book) => (
               <SingleBook book={book} key={book._id} />

@@ -21,14 +21,14 @@ function index({ book }) {
         >
           <BiArrowBack />
         </button>
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <Image
             height={200}
             width={350}
             loader={() => src}
             src={src}
             unoptimized={true}
-            className="w-1/2"
+            className="w-full md:w-1/2"
             alt=""
           />
           <div>
