@@ -8,9 +8,9 @@ function Help({ help }) {
       <h2>Self-help</h2>
       <div className="contain">
         <div className="inner-scroll">
-          {/* {help.map((book) => (
+          {help.map((book) => (
             <SingleBook book={book} key={book.id} />
-          ))} */}
+          ))}
         </div>
       </div>
     </div>

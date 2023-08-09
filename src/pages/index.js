@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Inter } from "next/font/google";
-// import Help from "@/components/Help";
+import Help from "@/components/Help";
 // import Leadership from "@/components/Leadership";
 // import Success from "@/components/Success";
 // import Relationships from "@/components/Relationships";
@@ -13,24 +13,24 @@ import Hero from "@/components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({ books }) {
   return (
     <>
       <Hero />
-      {/* <Help help={books.help} />
-      <Leadership lead={books.leadership} />
+      <Help help={books} />
+      {/* <Leadership lead={books.leadership} />
       <Success success={books.success} />
       <Relationships relationship={books.relationship} /> */}
     </>
   );
 }
 
-// export async function getStaticProps() {
-//   const books = await client.fetch(`*[_type == "post"]`);
+export async function getStaticProps() {
+  const books = await client.fetch(`*[_type == "post"]`);
 
-//   return {
-//     props: {
-//       books,
-//     },
-//   };
-// }
+  return {
+    props: {
+      books,
+    },
+  };
+}

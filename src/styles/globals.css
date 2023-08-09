@@ -54,7 +54,7 @@ nav ul {
 }
 
 .overlay {
-  @apply absolute top-0 left-0 right-0 bottom-0 bg-transparentBlack flex justify-center items-center backdrop-blur-sm flex-col gap-2
+  @apply absolute top-0 left-0 right-0 bottom-0 bg-transparentBlack flex justify-center items-center text-center backdrop-blur-sm flex-col gap-2
 }
 
 .library {
